@@ -95,5 +95,6 @@ subnet_config = {
 - Private subnets are used for:
   - Application services (`hi`, `hello`)
   - Auto Scaling Groups
+- Each Availability Zone (AZ) must include **at least one public subnet** if it contains any private subnets.
 
 ---
